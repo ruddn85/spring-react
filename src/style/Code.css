@@ -1,0 +1,111 @@
+.code-container {
+  max-width: 480px;
+  margin: 40px auto;
+  padding: 25px;
+  border-radius: 12px;
+  background-color: #f5f5f5;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.code-container h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* 기본은 세로 */
+.code-container form > div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.code-container label {
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #555;
+}
+
+.code-container input[type="text"] {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+
+.code-container input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+.code-container .submit-btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.code-container .submit-btn:hover {
+  background-color: #0056b3;
+}
+
+/* ===== 라디오 그룹 ===== */
+.code-container .radio-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+.code-container .radio-options {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.code-container .radio-group input[type="text"] {
+  margin-top: 0;
+  width: 100%;
+}
+
+/* ===== 코드 ID 한 줄 ===== */
+.code-container .codeid-line {
+  display: flex !important;     /* column 덮어쓰기 */
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.code-container .codeid-line label {
+  margin-bottom: 0;
+  white-space: nowrap;
+}
+
+.code-container .codeid-line input[type="text"] {
+  width: 140px;
+}
+
+.add-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.add-btn:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,46 @@
+/* 트리 전체 */
+.tree-panel .rc-tree {
+  font-size: 14px;
+}
+
+/* 노드 wrapper */
+.tree-panel .rc-tree-node-content-wrapper {
+  display: flex;
+  align-items: center;
+  height: 32px;
+  padding: 0 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+/* hover */
+.tree-panel .rc-tree-node-content-wrapper:hover {
+  background-color: #eef3ff;
+}
+
+/* 선택된 노드 */
+.tree-panel .rc-tree-node-content-wrapper.rc-tree-node-selected {
+  background-color: #dbe7ff;
+  font-weight: 600;
+}
+
+/* 오른쪽 상세 패널 */
+.detail-panel {
+  flex: 1;
+  padding: 20px;
+  background-color: #fafafa;
+}
+.detail-title {
+  margin: 0 0 12px;
+  font-size: 18px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 8px;
+}
+.detail-content {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 16px;
+  min-height: 200px;
+  border-radius: 4px;
+}

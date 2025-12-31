@@ -1,0 +1,56 @@
+.tab-container {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  background-color: #f5f5f5;
+  border-radius: 12px;
+  justify-content: center; /* 가운데 정렬 */
+}
+
+.tab-button {
+  padding: 10px 24px;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  background-color: #e0e0e0;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.tab-button:hover {
+  background-color: #d5d5d5;
+}
+
+.tab-button.active {
+  background-color: #4caf50;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+/* Header */
+.app-header {
+  background-color: #4caf50;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 16px 24px;
+  text-align: center;
+  border-radius: 12px 12px 0 0;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  margin-bottom: 16px;
+}
+
+/* Footer */
+.app-footer {
+  background-color: #4caf50;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 12px 24px;
+  text-align: center;
+  border-radius: 0 0 12px 12px;
+  box-shadow: 0 -4px 6px rgba(0,0,0,0.1);
+  margin-top: 16px;
+}

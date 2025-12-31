@@ -1,0 +1,101 @@
+.soccer-form {
+  max-width: 640px;
+  margin: 40px auto;
+  padding: 32px 28px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.soccer-form__title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 28px;
+}
+
+.soccer-form__group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.soccer-form__label {
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #444;
+}
+
+/* input / select / textarea */
+.soccer-form__input,
+.soccer-form__select,
+.soccer-form__textarea {
+  padding: 12px 14px;
+  font-size: 14px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  outline: none;
+}
+
+.soccer-form__textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.soccer-form__input:focus,
+.soccer-form__select:focus,
+.soccer-form__textarea:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+/* 라디오 */
+.soccer-form__radio-group {
+  display: flex;
+  gap: 16px;
+}
+
+.soccer-form__radio {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* 버튼 */
+.soccer-form__actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 32px;
+}
+
+.soccer-form__btn {
+  min-width: 100px;
+  padding: 10px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.soccer-form__btn--submit {
+  background: #2563eb;
+  color: #fff;
+}
+
+.soccer-form__btn--submit:hover {
+  background: #1e4fd8;
+}
+
+.soccer-form__btn--cancel {
+  background: #e5e7eb;
+  color: #333;
+}
+
+.soccer-form__btn--cancel:hover {
+  background: #d1d5db;
+}
