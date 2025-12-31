@@ -1,3 +1,12 @@
+해당 디렉토리에서
+npm install
+
+npm run dev
+서버 실행
+
+오라클 테이블 있어야하며
+프로시저, 펑션도 존재해야 함.
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
